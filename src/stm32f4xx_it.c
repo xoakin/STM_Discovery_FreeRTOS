@@ -11,6 +11,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx.h"
+#define USE_RTOS_SYSTICK
 #ifdef USE_RTOS_SYSTICK
 #include <cmsis_os.h>
 #endif
